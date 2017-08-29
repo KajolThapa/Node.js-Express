@@ -1,0 +1,18 @@
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] MongoDB starting : pid=1452 port=27017 dbpath=./data/r1/db 64-bit host=CST_N906_03
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] db version v3.4.2
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] git version: 3f76e40c105fc223b3e5aac3e20dcd026b83b38b
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] modules: none
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten] build environment:
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten]     distmod: 2008plus
+2017-05-20T10:56:51.465-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2017-05-20T10:56:51.466-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-05-20T10:56:51.466-0400 I CONTROL  [initandlisten] options: { net: { port: 27017 }, replication: { oplogSizeMB: 5 }, storage: { dbPath: "./data/r1/db", directoryPerDB: true }, systemLog: { destination: "file", path: "./logs/log1.txt" } }
+2017-05-20T10:56:51.470-0400 E NETWORK  [initandlisten] listen(): bind() failed Only one usage of each socket address (protocol/network address/port) is normally permitted. for socket: 0.0.0.0:27017
+2017-05-20T10:56:51.470-0400 E NETWORK  [initandlisten] Failed to set up sockets during startup.
+2017-05-20T10:56:51.470-0400 E STORAGE  [initandlisten] Failed to set up listener: InternalError: Failed to set up sockets
+2017-05-20T10:56:51.470-0400 I NETWORK  [initandlisten] shutdown: going to close listening sockets...
+2017-05-20T10:56:51.470-0400 I NETWORK  [initandlisten] shutdown: going to flush diaglog...
+2017-05-20T10:56:51.470-0400 I CONTROL  [initandlisten] now exiting
+2017-05-20T10:56:51.470-0400 I CONTROL  [initandlisten] shutting down with code:48

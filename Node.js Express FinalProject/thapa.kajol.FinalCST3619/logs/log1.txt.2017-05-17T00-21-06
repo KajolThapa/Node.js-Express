@@ -1,0 +1,75 @@
+2017-05-14T11:58:28.715-0400 I CONTROL  [initandlisten] MongoDB starting : pid=7128 port=27017 dbpath=./data/r1/db 64-bit host=DESKTOP-42PTJM1
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] targetMinOS: Windows 7/Windows Server 2008 R2
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] db version v3.4.3
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] git version: f07437fb5a6cca07c10bafa78365456eb1d6d5e1
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] allocator: tcmalloc
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] modules: none
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] build environment:
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten]     distmod: 2008plus
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten]     distarch: x86_64
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten]     target_arch: x86_64
+2017-05-14T11:58:28.716-0400 I CONTROL  [initandlisten] options: { net: { port: 27017 }, replication: { oplogSizeMB: 5 }, storage: { dbPath: "./data/r1/db", directoryPerDB: true }, systemLog: { destination: "file", path: "./logs/log1.txt" } }
+2017-05-14T11:58:28.717-0400 I STORAGE  [initandlisten] wiredtiger_open config: create,cache_size=7662M,session_max=20000,eviction=(threads_min=4,threads_max=4),config_base=false,statistics=(fast),log=(enabled=true,archive=true,path=journal,compressor=snappy),file_manager=(close_idle_time=100000),checkpoint=(wait=60,log_size=2GB),statistics_log=(wait=0),
+2017-05-14T11:58:28.797-0400 I CONTROL  [initandlisten] 
+2017-05-14T11:58:28.797-0400 I CONTROL  [initandlisten] ** WARNING: Access control is not enabled for the database.
+2017-05-14T11:58:28.797-0400 I CONTROL  [initandlisten] **          Read and write access to data and configuration is unrestricted.
+2017-05-14T11:58:28.797-0400 I CONTROL  [initandlisten] 
+2017-05-14T11:58:28.934-0400 I FTDC     [initandlisten] Initializing full-time diagnostic data capture with directory './data/r1/db/diagnostic.data'
+2017-05-14T11:58:28.949-0400 I INDEX    [initandlisten] build index on: admin.system.version properties: { v: 2, key: { version: 1 }, name: "incompatible_with_version_32", ns: "admin.system.version" }
+2017-05-14T11:58:28.949-0400 I INDEX    [initandlisten] 	 building index using bulk method; build may temporarily use up to 500 megabytes of RAM
+2017-05-14T11:58:28.953-0400 I INDEX    [initandlisten] build index done.  scanned 0 total records. 0 secs
+2017-05-14T11:58:28.953-0400 I COMMAND  [initandlisten] setting featureCompatibilityVersion to 3.4
+2017-05-14T11:58:28.954-0400 I NETWORK  [thread1] waiting for connections on port 27017
+2017-05-14T11:58:40.620-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61381 #1 (1 connection now open)
+2017-05-14T11:58:40.663-0400 I -        [conn1] end connection 127.0.0.1:61381 (1 connection now open)
+2017-05-14T11:59:14.034-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61386 #2 (1 connection now open)
+2017-05-14T11:59:14.034-0400 I NETWORK  [conn2] received client metadata from 127.0.0.1:61386 conn2: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T11:59:24.921-0400 I -        [conn2] end connection 127.0.0.1:61386 (1 connection now open)
+2017-05-14T11:59:56.142-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61389 #3 (1 connection now open)
+2017-05-14T11:59:56.143-0400 I NETWORK  [conn3] received client metadata from 127.0.0.1:61389 conn3: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:00:36.664-0400 I -        [conn3] end connection 127.0.0.1:61389 (1 connection now open)
+2017-05-14T12:08:06.082-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61415 #4 (1 connection now open)
+2017-05-14T12:08:06.082-0400 I NETWORK  [conn4] received client metadata from 127.0.0.1:61415 conn4: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:11:13.394-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61417 #5 (2 connections now open)
+2017-05-14T12:11:13.394-0400 I NETWORK  [conn5] received client metadata from 127.0.0.1:61417 conn5: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:11:13.402-0400 I -        [conn5] end connection 127.0.0.1:61417 (2 connections now open)
+2017-05-14T12:15:39.844-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61418 #6 (2 connections now open)
+2017-05-14T12:15:39.844-0400 I NETWORK  [conn6] received client metadata from 127.0.0.1:61418 conn6: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:15:39.848-0400 I -        [conn6] end connection 127.0.0.1:61418 (2 connections now open)
+2017-05-14T12:15:56.243-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61419 #7 (2 connections now open)
+2017-05-14T12:15:56.243-0400 I NETWORK  [conn7] received client metadata from 127.0.0.1:61419 conn7: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:15:56.247-0400 I -        [conn7] end connection 127.0.0.1:61419 (2 connections now open)
+2017-05-14T12:17:20.827-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61421 #8 (2 connections now open)
+2017-05-14T12:17:20.827-0400 I NETWORK  [conn8] received client metadata from 127.0.0.1:61421 conn8: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:17:20.831-0400 I -        [conn8] end connection 127.0.0.1:61421 (2 connections now open)
+2017-05-14T12:18:39.733-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61423 #9 (2 connections now open)
+2017-05-14T12:18:39.733-0400 I NETWORK  [conn9] received client metadata from 127.0.0.1:61423 conn9: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:18:39.737-0400 I -        [conn9] end connection 127.0.0.1:61423 (2 connections now open)
+2017-05-14T12:18:48.421-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61424 #10 (2 connections now open)
+2017-05-14T12:18:48.421-0400 I NETWORK  [conn10] received client metadata from 127.0.0.1:61424 conn10: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:18:48.425-0400 I -        [conn10] end connection 127.0.0.1:61424 (2 connections now open)
+2017-05-14T12:21:56.749-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61427 #11 (2 connections now open)
+2017-05-14T12:21:56.749-0400 I NETWORK  [conn11] received client metadata from 127.0.0.1:61427 conn11: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:21:57.105-0400 I -        [conn11] end connection 127.0.0.1:61427 (2 connections now open)
+2017-05-14T12:22:55.323-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61428 #12 (2 connections now open)
+2017-05-14T12:22:55.323-0400 I NETWORK  [conn12] received client metadata from 127.0.0.1:61428 conn12: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:22:55.449-0400 I -        [conn12] end connection 127.0.0.1:61428 (2 connections now open)
+2017-05-14T12:25:49.355-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61438 #13 (2 connections now open)
+2017-05-14T12:25:49.356-0400 I NETWORK  [conn13] received client metadata from 127.0.0.1:61438 conn13: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:25:49.427-0400 I -        [conn13] end connection 127.0.0.1:61438 (2 connections now open)
+2017-05-14T12:32:33.587-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61502 #14 (2 connections now open)
+2017-05-14T12:32:33.587-0400 I NETWORK  [conn14] received client metadata from 127.0.0.1:61502 conn14: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:32:33.610-0400 I -        [conn14] end connection 127.0.0.1:61502 (2 connections now open)
+2017-05-14T12:36:43.660-0400 I NETWORK  [thread1] connection accepted from 127.0.0.1:61503 #15 (2 connections now open)
+2017-05-14T12:36:43.660-0400 I NETWORK  [conn15] received client metadata from 127.0.0.1:61503 conn15: { application: { name: "MongoDB Shell" }, driver: { name: "MongoDB Internal Client", version: "3.4.3" }, os: { type: "Windows", name: "Microsoft Windows 8", architecture: "x86_64", version: "6.2 (build 9200)" } }
+2017-05-14T12:36:43.671-0400 I -        [conn15] end connection 127.0.0.1:61503 (2 connections now open)
+2017-05-14T12:46:36.280-0400 I CONTROL  [thread2] Ctrl-C signal
+2017-05-14T12:46:36.280-0400 I CONTROL  [consoleTerminate] got CTRL_C_EVENT, will terminate after current cmd ends
+2017-05-14T12:46:36.280-0400 I NETWORK  [consoleTerminate] shutdown: going to close listening sockets...
+2017-05-14T12:46:36.280-0400 I NETWORK  [consoleTerminate] closing listening socket: 504
+2017-05-14T12:46:36.280-0400 I NETWORK  [consoleTerminate] shutdown: going to flush diaglog...
+2017-05-14T12:46:36.280-0400 I FTDC     [consoleTerminate] Shutting down full-time diagnostic data capture
+2017-05-14T12:46:36.282-0400 I STORAGE  [consoleTerminate] WiredTigerKVEngine shutting down
+2017-05-14T12:46:36.333-0400 I STORAGE  [consoleTerminate] shutdown: removing fs lock...
+2017-05-14T12:46:36.333-0400 I CONTROL  [consoleTerminate] now exiting
+2017-05-14T12:46:36.333-0400 I CONTROL  [consoleTerminate] shutting down with code:12
